@@ -11,9 +11,33 @@
     src: url('../fonts/GilroyThin.ttf') format('ttf');
 }
 
+.flex {
+    display: flex !important;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
+
+.yellow {
+    color: #F5B324 !important;
+}
+
+.white {
+    color: #FFF !important;
+}
+
+.borderYellow {
+    border: 1px solid #F5B324 !important;
+}
+
 body {
     font-family: "Gilroy", sans-serif;
     background: #EFEFEF;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header {
@@ -121,7 +145,7 @@ body {
     left: 0;
     z-index: -1;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     object-fit: cover;
     border-radius: 0 0 50px 50px;
 }
@@ -133,7 +157,7 @@ body {
     left: 0;
 
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 0 0 50px 50px;
 
@@ -145,6 +169,7 @@ body {
     flex-direction: column;
     gap: 22px;
 }
+
 
 .main .mainTitle h1 {
     color: #282828;
@@ -566,6 +591,109 @@ body {
 
 
 
+.miniCard {
+    height: 100%;
+    display: flex;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 2rem 27px;
+    border: 1px solid #ccc;
+}
+
+.miniCard .aboutCardRight .aboutCardImage {
+    height: 100% !important;
+    display: flex;
+    gap: 1rem;
+    border-radius: 34px !important;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.preFooter {
+    position: relative !important;
+}
+
+.taxiPreFooterImg {
+    position: absolute;
+    right: 0;
+    top: 26%;
+    z-index: -1;
+}
+
+.taxi h1 {
+  
+  
+    font-size: 48px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 106.4%;
+    /* 51.072px */
+}
+
+.cardgoProof {
+    max-width: 1380px;
+    margin: 2rem auto;
+    padding: 40px;
+}
+
+.cardgoProof h1 {
+    color: #F8BF00;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 106.4%;
+    /* 29.792px */
+}
+
+.cardgoProofContiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    height: 100%;
+
+}
+
+.cargoCard {
+    flex: 1 1 190px;
+    width: 350px;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cargoCard div {}
+
+.cargoCard h1 {
+    color: #F8BF00;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 106.4%;
+    /* 29.792px */
+}
+
+.cargoCard h2 {
+    color: #282828;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 95%;
+    /* 22.8px */
+}
+
+.cargoCard div img {
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+}
+
 .mobile-menu {
     position: absolute;
     left: 0;
@@ -602,6 +730,8 @@ body {
 .mobile-menu nav ul {
     margin: 0 auto;
 }
+
+
 
 @keyframes fadeAppear {
     0% {
@@ -663,7 +793,6 @@ body {
     transform: rotate(-135deg);
 }
 
-
 @media(max-width:1245px) {
 
     .main .Mainbackround {
@@ -711,10 +840,11 @@ body {
     .main .Mainbackround {
         height: 100vh;
     }
-    
+
     .main .overlay {
         height: 100vh;
     }
+
     .preFooter {
         flex-wrap: wrap-reverse;
         text-align: center;
@@ -832,22 +962,27 @@ body {
     .Proof {
         padding: 0;
     }
+
     .main .Mainbackround {
         height: 100vh;
     }
-    
+
     .main .overlay {
         height: 100vh;
     }
+
     .Proof .ProofContiner .proofList .proofListItem .proofItemTop h1 {
         font-size: 26px;
     }
-    .main .mainTitle h1{
+
+    .main .mainTitle h1 {
         font-size: 28px;
     }
-    .main .mainTitle h3{
+
+    .main .mainTitle h3 {
         font-size: 22px;
     }
+
     .preFooter .preFooterRigth .preFooterImage {
         width: 100%;
         height: fit-content;
