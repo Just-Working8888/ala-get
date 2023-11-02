@@ -96,6 +96,11 @@ a {
     font-weight: 500;
     line-height: 106.4%;
     text-transform: uppercase;
+    transition: 0.3s;
+}
+.header nav ul li:hover{
+    transform: scale(1.2);
+    color: #F5B324;
 }
 
 .header nav ul .active {
@@ -293,6 +298,13 @@ a {
     padding: 10px 16px;
     width: fit-content;
 }
+.aboutAppCard{
+    transition: 0.3s;
+}
+.aboutAppCard:hover{
+    transform: scale(1.02);
+}
+
 
 .aboutAppCard .aboutCardLeft .slideNum h1 {
     color: #363636;
@@ -449,7 +461,12 @@ a {
     width: 30vw;
     flex: 1 1 190px;
 }
-
+.proofListItem{
+    transition: 0.3s;
+}
+.proofListItem:hover{
+    transform: scale(1.02);
+}
 .Proof .ProofContiner .proofList .proofListItem .proofItemTop {
     display: flex;
     align-items: center;
@@ -683,6 +700,7 @@ a {
 }
 
 .cargoCard {
+    transition: 0.3s;
     flex: 1 1 190px;
     width: 350px;
     display: flex;
@@ -695,7 +713,9 @@ a {
     border: 2px solid #BABABA;
 }
 
-
+.cargoCard:hover{
+    transform: scale(1.02);
+}
 
 .cargoCard h1 {
     color: #F8BF00;
@@ -938,12 +958,15 @@ a {
 }
 
 .stepItem {
+    transition: 0.3s;
     color: white;
     display: flex;
     align-items: center;
     gap: 40px;
 }
-
+.stepItem:hover{
+    transform: scale(1.02);
+}
 .stepItem div {
     border-radius: 15px;
     background: #F8BF00;
@@ -1019,10 +1042,11 @@ a {
     }
 
     .aboutAppCard {
+        transition: 0.3s;
         height: 50%;
         flex-direction: column-reverse;
     }
-
+  
     .proofList {
         flex-direction: column;
     }
