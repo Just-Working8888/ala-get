@@ -11,8 +11,8 @@
 
 <body>
   <!-- header start -->
-   <!-- header start -->
-   <header class="header">
+  <!-- header start -->
+  <header class="header">
     <nav>
       <div class="logo"><img src="./assets/img/Group 46.png" alt="" /></div>
       <ul class="desc">
@@ -20,13 +20,13 @@
           <li >главная</li>
         </a>
         <a href="./taxi.html">
-          <li class="active">Такси</li>
+          <li>Такси</li>
         </a>
         <a href="./cargo.html">
           <li>грузоперевозки</li>
         </a>
         <a href="./delivery.html">
-          <li>доставка</li>
+          <li class="active">доставка</li>
         </a>
         <a href="./about.html">
           <li>о нас</li>
@@ -44,7 +44,7 @@
       <div class="translate">ru KG</div>
       <div class="beTaksist">
         <a href="./beTaxist.html">
-          <p>Стать водителем</p>
+          <p class="white">Стать водителем</p>
         </a>
 
       </div>
@@ -79,37 +79,72 @@
   <!-- header end -->
   <!-- main start -->
   <main id="main" class="main">
-    <img id="myElement" class="Mainbackround" src="./assets/img/4044282 1.png" alt="" />
+    <img id="myElement" class="Mainbackround" src="./assets/img/1 6.png" alt="" />
     <div class="overlay"></div>
-    <div class="mainTitle">
-      <h1 class="white">быстрый и удобный сервис</h1>
-      <h2 class="yellow">по вызову такси</h2>
+    <div class=" taxi mainTitle">
+      <h1 class="yellow">грузовые перевозки по вашей цене</h1>
+
       <h3 class="white">
-        Договаривайтесь
-        о цене напрямую с водителем
+        С приложением Alaget Taxi заказ грузового транспорта становится еще проще!
       </h3>
       <div class="mainButton borderYellow">УСТАНОВИТЬ ПРИЛОЖЕНИЕ</div>
     </div>
+    <div style="width: 100%;"></div>
     <div class="mainCarImage">
 
     </div>
   </main>
   <!-- main end -->
-  <!-- service start -->
-  <section class="service">
-    <div class="serviceItem">
-      <img src="./assets/icons/Group (1).svg" alt="" />
-      <p>Вежливые водители</p>
+  <section style="display: flex; align-items: center;" class="cardgoProof">
+    <div class="leftInfo">
+      <h1 style="font-size: 48px;">Доверьте нам вашу посылку</h1>
+      <br>
+      <br>
+      <div class="cardFlex">
+        <img height="40px" src="./assets/icons/_2254536808176.svg" alt="">
+        <p>Отправляйте посылку по любому адресу по всей стране и не переживать, что она будет доставлена в срок и в
+          надлежащем виде.</p>
+      </div>
+      <br>
+      <div class="cardFlex">
+        <img height="40px" src="./assets/icons/_2254536808176.svg" alt="">
+        <p>Отправляйте посылку по любому адресу по всей стране и не переживать, что она будет доставлена в срок и в
+          надлежащем виде.</p>
+      </div>
     </div>
-    <div class="serviceItem">
-      <img src="./assets/icons/parking_5375572 1.svg" alt="" />
-      <p>Большой автопарк</p>
-    </div>
-    <div class="serviceItem">
-      <img src="./assets/icons/Group 49.svg" alt="" />
-      <p>Быстрая подача такси </p>
+    <div class="rightInfo">
+      <img src="./assets/img/Group 150.png" alt="">
     </div>
   </section>
+  <!-- service start -->
+  <section class="darkSection">
+    <section class="cardgoProof">
+      <h1 class="yellow">Приложение для выгодных грузоперевозок</h1>
+      <br>
+      <br>
+      <div class="cardgoProofContiner">
+        <div class="cargoCard" style="border: none;">
+          <div><img src="./assets/img/1 8.png" alt=""></div>
+          <h1>Ваша цена</h1>
+          <h2 class="white">Предложите комфортную вам цену или примите предложение водителя</h2>
+        </div>
+        <div class="line"></div>
+        <div class="cargoCard" style="border: none;">
+          <div><img src="./assets/img/2 1.png" alt=""></div>
+          <h1>Перевозка любых грузов</h1>
+          <h2 class="white">Перевозите тяжести и вещи, которые занимают много места</h2>
+        </div>
+        <div class="line"></div>
+        <div class="cargoCard" style="border: none;">
+          <div><img src="./assets/img/3 2.png" alt=""></div>
+          <h1>Перевозка скота</h1>
+          <h2 class="white">Закажите машину даже для перевозки вашего скота </h2>
+
+        </div>
+      </div>
+    </section>
+  </section>
+
   <!-- service end -->
   <br><br>
   <!-- swiper start -->
@@ -122,7 +157,7 @@
         <div class="swiper-slide">
           <div style="flex-direction: column;gap: 2rem;" class="aboutAppCard">
             <h1 class="yellow">Такси по городу и между городами</h1>
-            <div class="flex">
+            <div class="cardFlex">
               <div class="aboutCardRight">
                 <div class="miniCard">
                   <div class="aboutCardRight">
@@ -166,52 +201,6 @@
           </div>
         </div>
 
-        <div class="swiper-slide">
-          <div style="flex-direction: column;gap: 2rem;" class="aboutAppCard">
-            <h1 class="yellow">Такси по городу и между городами</h1>
-            <div class="flex">
-              <div class="aboutCardRight">
-                <div class="miniCard">
-                  <div class="aboutCardRight">
-                    <h1>Такси внутри города</h1>
-                    <br>
-                    <p>С помощью приложения вы сможете
-                      путешествовать по стоимости, которую
-                      вы сами устанавливаете, а водитель
-                      заедет за вами по указанному адресу!</p>
-                  </div>
-                  <div class="aboutCardRight">
-                    <div class="aboutCardImage">
-                      <img
-                        src="./assets/img/young-happy-manual-worker-carrying-cardboard-boxes-in-delivery-van-while-communicating-with-his-colleagues 1.png"
-                        alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="aboutCardRight">
-                <div class="miniCard">
-                  <div class="aboutCardRight">
-                    <h1>Такси внутри города</h1>
-                    <br>
-                    <p>С помощью приложения вы сможете
-                      путешествовать по стоимости, которую
-                      вы сами устанавливаете, а водитель
-                      заедет за вами по указанному адресу!</p>
-                  </div>
-                  <div class="aboutCardRight">
-                    <div class="aboutCardImage">
-                      <img
-                        src="./assets/img/young-happy-manual-worker-carrying-cardboard-boxes-in-delivery-van-while-communicating-with-his-colleagues 1.png"
-                        alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
 
       </div>
 
@@ -305,13 +294,13 @@
   <section class="preFooter">
     <div class="taxi preFooterLeft">
       <h1>С ALAGET зарабатывать легко!</h1>
-    
+
       <br />
       <p>Присоединяйся к нам и зарабатывай на услугах грузоперевозок, такси и доставки!</p>
       <br />
       <button class="orangeBGbutton">УСТАНОВИТЬ ПРИЛОЖЕНИЕ</button>
     </div>
-<div style="width: 100%;"></div>
+    <div style="width: 100%;"></div>
     <div class="preFooterRigth">
       <div class="taxiPreFooterImg">
         <img src="./assets/img/1 3.png" alt="" />

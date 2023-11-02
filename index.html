@@ -15,51 +15,66 @@
     <nav>
       <div class="logo"><img src="./assets/img/Group 46.png" alt="" /></div>
       <ul class="desc">
-        <li class="active">главная</li>
+        <a href="./index.html">
+          <li class="active">главная</li>
+        </a>
         <a href="./taxi.html">
           <li>Такси</li>
         </a>
         <a href="./cargo.html">
           <li>грузоперевозки</li>
         </a>
+        <a href="./delivery.html">
+          <li>доставка</li>
+        </a>
+        <a href="./about.html">
+          <li>о нас</li>
+        </a>
 
-        <li>доставка</li>
-        <li>о нас</li>
         <li>контакты</li>
       </ul>
-      <div class="burger-wrap">
-        <div class="burger">
-          <span></span>
-          <span></span>
-          <span></span>
+      <div>
+        <div class="burgerMenu" onclick="openSideBar()">
+          <img width="50px" src="https://cdn-icons-png.flaticon.com/512/5251/5251840.png" alt="">
         </div>
       </div>
+
+
       <div class="translate">ru KG</div>
       <div class="beTaksist">
-        <p>Стать водителем</p>
+        <a href="./beTaxist.html">
+          <p>Стать водителем</p>
+        </a>
+
       </div>
     </nav>
 
-    <div class="mobile-menu">
-      <nav>
-        <ul style="flex-direction: column;text-align: center;">
-          <li class="active">главная</li>
-          <a href="./taxi.html">
-            <li>Такси</li>
-          </a>
-          <a href="./cargo.html">
-            <li>грузоперевозки</li>
-          </a>
-          <li>доставка</li>
-          <li>о нас</li>
-          <li>контакты</li>
-        </ul>
-      </nav>
     </div>
-    </div>
+
+
+
 
   </header>
   <!-- header end -->
+  <div id="mobileMenu" class="mobileMenuDisabled">
+    <div onclick="closeSideBar()" class="mobileClose">
+      x
+    </div>
+    <br><br>
+    <ul class="desc">
+      <li class="active">главная</li>
+      <a href="./taxi.html">
+        <li>Такси</li>
+      </a>
+      <a href="./cargo.html">
+        <li>грузоперевозки</li>
+      </a>
+
+      <li>доставка</li>
+      <li>о нас</li>
+      <li>контакты</li>
+    </ul>
+  </div>
   <!-- main start -->
   <main id="main" class="main">
     <img id="myElement" class="Mainbackround" src="./assets/img/Стойка в кривых 2.png" alt="" />

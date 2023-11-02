@@ -36,13 +36,13 @@ $(function () {
   );
 });
 
-burger = document.querySelector(".burger");
-burger_wrap = document.querySelector(".burger-wrap");
-mobileMenu = document.querySelector(".mobile-menu");
 
-burger.addEventListener("click", function () {
-  burger.classList.toggle("active");
-  mobileMenu.classList.toggle("open");
-});
 
+const sideBar = document.getElementById('mobileMenu')
+function closeSideBar() {
+  sideBar.className = 'mobileMenuDisabled'
+}
+function openSideBar() {
+  sideBar.className = 'mobileMenuActive'
+}
 
