@@ -601,14 +601,14 @@ a {
     text-transform: uppercase;
 }
 
-.footer .footerContainer nav .socialMedia {
+.socialMedia {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 16px;
 }
 
-.footer .footerContainer nav .socialMedia .iconItem {
+.socialMedia .iconItem {
     border-radius: 10px;
     border: 1px solid #F8BF00;
     padding: 8px;
