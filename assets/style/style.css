@@ -8,6 +8,13 @@
     font-family: 'Gilroy';
     src: url('../fonts/GilroyThin.ttf') format('ttf');
 }
+a{
+    color: white;
+}
+.deliveryFlex {
+    display: flex;
+    align-items: center;
+}
 
 .flex {
     display: flex !important;
@@ -98,7 +105,8 @@ a {
     text-transform: uppercase;
     transition: 0.3s;
 }
-.header nav ul li:hover{
+
+.header nav ul li:hover {
     transform: scale(1.2);
     color: #F5B324;
 }
@@ -237,8 +245,8 @@ a {
     align-items: center;
     max-width: 1380px;
     margin: 0 auto;
-    padding: 40px;
-    padding: 6% 0;
+    
+    padding: 6% 40px;
 }
 
 .service .serviceItem {
@@ -298,10 +306,12 @@ a {
     padding: 10px 16px;
     width: fit-content;
 }
-.aboutAppCard{
+
+.aboutAppCard {
     transition: 0.3s;
 }
-.aboutAppCard:hover{
+
+.aboutAppCard:hover {
     transform: scale(1.02);
 }
 
@@ -461,12 +471,15 @@ a {
     width: 30vw;
     flex: 1 1 190px;
 }
-.proofListItem{
+
+.proofListItem {
     transition: 0.3s;
 }
-.proofListItem:hover{
+
+.proofListItem:hover {
     transform: scale(1.02);
 }
+
 .Proof .ProofContiner .proofList .proofListItem .proofItemTop {
     display: flex;
     align-items: center;
@@ -713,7 +726,7 @@ a {
     border: 2px solid #BABABA;
 }
 
-.cargoCard:hover{
+.cargoCard:hover {
     transform: scale(1.02);
 }
 
@@ -964,9 +977,11 @@ a {
     align-items: center;
     gap: 40px;
 }
-.stepItem:hover{
+
+.stepItem:hover {
     transform: scale(1.02);
 }
+
 .stepItem div {
     border-radius: 15px;
     background: #F8BF00;
@@ -1018,8 +1033,21 @@ a {
 
 
 }
-
+@media(max-width:1128px){
+    .cargoCard{
+        height: 469px;
+    }
+}
+@media(max-width:1024px){
+    .Proof .ProofContiner .proofList .proofListItem{
+        height: fit-content;
+    } 
+}
 @media(max-width:830px) {
+    .cargoCard {
+        height: fit-content;
+    }
+
     .taxiPreFooterImg {
         top: 0;
     }
@@ -1046,7 +1074,7 @@ a {
         height: 50%;
         flex-direction: column;
     }
-  
+
     .proofList {
         flex-direction: column;
     }
@@ -1084,6 +1112,7 @@ a {
     .mainCarImage img {
         position: absolute;
         width: 100%;
+        bottom: 30%;
     }
 
     .preFooterRigth {
@@ -1103,6 +1132,10 @@ a {
 }
 
 @media(max-width:770px) {
+    .line {
+        display: none;
+    }
+
     .main .Mainbackround {
         height: 95vh;
     }
@@ -1138,18 +1171,30 @@ a {
 }
 
 @media(max-width:571px) {
-    .mainTitle h1{
+    .taxi h1 {
+        font-size: 35px !important;
+    }
+    .deliveryFlex {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .mainTitle h1 {
         font-size: 38px;
     }
+
     .Instruktion p {
         font-size: 15px;
     }
-    .Instruktion h1{
+
+    .Instruktion h1 {
         font-size: 26px;
     }
+
     .preFooter .preFooterLeft p {
         font-size: 20px;
     }
+
     .service .serviceItem {
         flex-direction: column;
         margin: 1rem;
@@ -1194,5 +1239,29 @@ a {
     .preFooter .preFooterRigth .preFooterImage {
         width: 100%;
         height: fit-content;
+    }
+
+    .cardFlex {
+        flex-direction: column;
+    }
+}
+
+@media(max-width:360px) {
+    .mainCarImage img {
+        bottom: 40%;
+    }
+    .cargoCard div {
+        width: 150px;
+        height: 150px;
+    }
+
+    .taxi h1 {
+        font-size: 38px !important;
+    }
+}
+@media(max-width:300px) {
+    .cargoCard div {
+        width: 80px;
+        height: 80px;
     }
 }
