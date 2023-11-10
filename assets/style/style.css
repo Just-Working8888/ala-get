@@ -1279,7 +1279,7 @@ a {
 @media(max-width:571px) {
     .instructionCard{
         width: 100%;
-        height: fit-content;
+
     }
     .taxi h1 {
         font-size: 35px !important;
