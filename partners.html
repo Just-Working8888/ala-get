@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/miniSwiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css'>
+    <link rel="stylesheet" href="./style.css">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="header">
+        <nav>
+            <div class="logo"><img src="./assets/img/Group 46.png" alt="" /></div>
+            <ul class="desc">
+                <a href="./index.html">
+                    <li>главная</li>
+                </a>
+                <a href="./taxi.html">
+                    <li>Такси</li>
+                </a>
+                <a href="./cargo.html">
+                    <li class="active">грузоперевозки</li>
+                </a>
+                <a href="./delivery.html">
+                    <li>доставка</li>
+                </a>
+                <a href="./about.html">
+                    <li>о нас</li>
+                </a>
+                <a href="./contact.html">
+                    <li>контакты</li>
+                </a>
+
+            </ul>
+            <div>
+                <div class="burgerMenu" onclick="openSideBar()">
+                    <img width="50px" src="https://cdn-icons-png.flaticon.com/512/5251/5251840.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="translate">ru KG</div>
+            <div class="beTaksist">
+                <a href="./beTaxist.html">
+                    <p>Стать водителем</p>
+                </a>
+
+            </div>
+        </nav>
+
+        </div>
+
+
+
+
+    </header>
+    <!-- header end -->
+    <div id="mobileMenu" class="mobileMenuDisabled">
+        <div onclick="closeSideBar()" class="mobileClose">
+            x
+        </div>
+        <br><br>
+        <ul class="desc">
+            <a href="./index.html">
+                <li>главная</li>
+            </a>
+
+            <a href="./taxi.html">
+                <li>Такси</li>
+            </a>
+            <a href="./cargo.html">
+                <li>грузоперевозки</li>
+            </a>
+            <a href="./delivery.html">
+                <li>доставка</li>
+            </a>
+            <a href="./about.html">
+                <li class="active">о нас</li>
+            </a>
+            <a href="./contact.html">
+                <li>контакты</li>
+            </a>
+        </ul>
+    </div>
+    <main id="main" class="main">
+        <img id="myElement" class="Mainbackround" src="./assets/img/partnersbg.png" alt="" />
+        <div class="overlay"></div>
+        <div class="mainTitle">
+
+            <h2 class="yellow">Стань парнёром</h2>
+            <h2 class="white">и зарабатывай с платформой Alaget прямо сейчас!</h2>
+
+            <div class="mainButton borderYellow">стать партнером Alaget</div>
+        </div>
+        <div class="mainCarImage">
+
+        </div>
+    </main>
+
+    <section class="partners">
+        <div class="partnersLeft">
+            <h1>Стать партнером Alaget очень легко!</h1>
+            <br>
+            <h2>Есть 2 сценария, по которым вы можете
+                начать зарабатывать с платформой Alaget уже сегодня!
+            </h2>
+        </div>
+        <div class="partnersRigth">
+            <img src="./assets/img/Group 207.png" alt="">
+        </div>
+    </section>
+    <section class="partGroup">
+        <div class="partGroupContainer">
+            <div class="partGroupTop">
+                <h1>Локальный таксопарк (в Кыргызстане)</h1>
+                <h1>Глобальный интегратор (в любой точке мира)</h1>
+            </div>
+            <br>
+            <div class="partGroupBop">
+                <div class="partBotImage">
+                    <img src="./assets/img/Стойка в кривых 4 (1).svg" alt="">
+                </div>
+                <div class="partTitle">
+                    <p>Если Ваша компания предоставляет услуги такси или грузоперевозок в городах и селах Кыргызстана, и
+                        вы
+                        хотите всегда получать стабильные заказы, вы можете стать локальным таксопарком, работающим на
+                        приложении Alaget.
+
+                    </p>
+                    <br>
+                    <h5>
+                        Мы обеспечим вашу компанию постоянным потоком заказов,
+                        а вы будете зарабатывать комиссию с каждого заказа!</h5>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section class="partners">
+        <div class="swiper-container">
+
+            <!-- additional required wrapper -->
+            <div class="swiper-wrapper">
+
+                <!-- slides -->
+                <div class="swiper-slide">
+                    <div class="partSwiperLine">
+                        <div></div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                            <circle cx="15" cy="15" r="15" fill="#282828" />
+                            <path d="M13 9C13 9 19.7613 15.5 19.9945 15.5C20.2276 15.5 13 22 13 22" stroke="#F8BF00"
+                                stroke-width="3" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="product">
+                        <div class="partCard">
+                            <div class="partCardImage">
+                                <img src="./assets/img/35 1.png" alt="">
+                            </div>
+                            <h1>
+                                Переговоры
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="partSwiperLine">
+                        <div></div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                            <circle cx="15" cy="15" r="15" fill="#282828" />
+                            <path d="M13 9C13 9 19.7613 15.5 19.9945 15.5C20.2276 15.5 13 22 13 22" stroke="#F8BF00"
+                                stroke-width="3" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="partCard">
+                        <div class="partCardImage">
+                            <img src="./assets/img/36 1.png" alt="">
+                        </div>
+                        <h1>
+                            Подписание контракта
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="partSwiperLine">
+                        <div></div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                            <circle cx="15" cy="15" r="15" fill="#282828" />
+                            <path d="M13 9C13 9 19.7613 15.5 19.9945 15.5C20.2276 15.5 13 22 13 22" stroke="#F8BF00"
+                                stroke-width="3" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="partCard">
+                        <div class="partCardImage">
+                            <img src="./assets/img/37 1.png" alt="">
+                        </div>
+                        <h1>
+                            Автопарк
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="partSwiperLine">
+                        <div></div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                            <circle cx="15" cy="15" r="15" fill="#282828" />
+                            <path d="M13 9C13 9 19.7613 15.5 19.9945 15.5C20.2276 15.5 13 22 13 22" stroke="#F8BF00"
+                                stroke-width="3" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="partCard">
+                        <div class="partCardImage">
+                            <img src="./assets/img/38 1.png" alt="">
+                        </div>
+                        <h1>
+                            Заказы
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="partSwiperLine">
+                        <div></div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                            <circle cx="15" cy="15" r="15" fill="#282828" />
+                            <path d="M13 9C13 9 19.7613 15.5 19.9945 15.5C20.2276 15.5 13 22 13 22" stroke="#F8BF00"
+                                stroke-width="3" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="partCard">
+                        <div class="partCardImage">
+                            <img src="./assets/img/35 1.png" alt="">
+                        </div>
+                        <h1>
+                            Переговоры
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="partSwiperLine">
+                        <div></div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                            <circle cx="15" cy="15" r="15" fill="#282828" />
+                            <path d="M13 9C13 9 19.7613 15.5 19.9945 15.5C20.2276 15.5 13 22 13 22" stroke="#F8BF00"
+                                stroke-width="3" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="partCard">
+                        <div class="partCardImage">
+                            <img src="./assets/img/39 1.png" alt="">
+                        </div>
+                        <h1>
+                            Выплата комиссии
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="partSwiperLine">
+                        <div></div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                            <circle cx="15" cy="15" r="15" fill="#282828" />
+                            <path d="M13 9C13 9 19.7613 15.5 19.9945 15.5C20.2276 15.5 13 22 13 22" stroke="#F8BF00"
+                                stroke-width="3" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="partCard">
+                        <div class="partCardImage">
+                            <img src="./assets/img/40.png" alt="">
+                        </div>
+                        <h1>
+                            Интеграция ПАК*
+                        </h1>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="partSwiperLine">
+                        <div></div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                            <circle cx="15" cy="15" r="15" fill="#282828" />
+                            <path d="M13 9C13 9 19.7613 15.5 19.9945 15.5C20.2276 15.5 13 22 13 22" stroke="#F8BF00"
+                                stroke-width="3" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="partCard">
+                        <div class="partCardImage">
+                            <img src="./assets/img/41.png" alt="">
+                        </div>
+                        <h1>
+                            Маркетинговый план
+                        </h1>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="partSwiperLine">
+                        <div></div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                            <circle cx="15" cy="15" r="15" fill="#282828" />
+                            <path d="M13 9C13 9 19.7613 15.5 19.9945 15.5C20.2276 15.5 13 22 13 22" stroke="#F8BF00"
+                                stroke-width="3" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="partCard">
+                        <div class="partCardImage">
+                            <img src="./assets/img/42.png" alt="">
+                        </div>
+                        <h1>
+                            Запуск приложений Alaget
+                        </h1>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="partSwiperLine">
+                        <div></div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                            <circle cx="15" cy="15" r="15" fill="#282828" />
+                            <path d="M13 9C13 9 19.7613 15.5 19.9945 15.5C20.2276 15.5 13 22 13 22" stroke="#F8BF00"
+                                stroke-width="3" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="partCard">
+                        <div class="partCardImage">
+                            <img src="./assets/img/43.png" alt="">
+                        </div>
+                        <h1>
+                            Заработок
+                        </h1>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- pagination -->
+            <div style="display: none;" class="swiper-pagination"></div>
+
+            <!-- navigation buttons -->
+            <div style="display: none;" class="swiper-button-prev"></div>
+            <div style="display: none;" class="swiper-button-next"></div>
+
+        </div>
+
+
+
+    </section>
+
+
+    <section class="formSection">
+        <div class="formTitle">
+            <h1>Что вы получаете от локального таксопарка Alaget:</h1>
+            <h2 class="flex">
+                <img src="./assets/icons/Vector — копия.svg" alt="">
+                Маркетинговая поддержка проекта по всей стране 
+            </h2>
+            <h2 class="flex">
+                <img src="./assets/icons/Vector — копия.svg" alt="">
+                Маркетинговая поддержка проекта по всей стране 
+            </h2>
+            <h2 class="flex">
+                <img src="./assets/icons/Vector — копия.svg" alt="">
+                Маркетинговая поддержка проекта по всей стране 
+            </h2>
+
+        </div>
+        <form class="form">
+            <h1>Оставьте заявку и получите консультацию</h1>
+            <input placeholder="Ваше ФИО " type="text">
+            <input placeholder="Название компании" type="text">
+            <input placeholder="номер телефона/e-mail" type="text">
+            <div class="formButton">Оставить заявку</div>
+        </form>
+
+    </section>
+
+
+
+
+    <!-- 
+    <section class="partCardSwiper">
+        <div class="partCard">
+            <div class="partCardImage">
+                <img src="./assets/img/35 1.png" alt="">
+            </div>
+            <h1>
+                Переговоры
+            </h1>
+        </div>
+        <div class="partSwiperLine">
+            <div></div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                <circle cx="15" cy="15" r="15" fill="#282828" />
+                <path d="M13 9C13 9 19.7613 15.5 19.9945 15.5C20.2276 15.5 13 22 13 22" stroke="#F8BF00"
+                    stroke-width="3" stroke-linecap="round" />
+            </svg>
+        </div>
+
+        <div class="partCard">
+            <div class="partCardImage">
+                <img src="./assets/img/35 1.png" alt="">
+            </div>
+            <h1>
+                Переговоры
+            </h1>
+        </div>
+        <div class="partSwiperLine">
+            <div></div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                <circle cx="15" cy="15" r="15" fill="#282828" />
+                <path d="M13 9C13 9 19.7613 15.5 19.9945 15.5C20.2276 15.5 13 22 13 22" stroke="#F8BF00"
+                    stroke-width="3" stroke-linecap="round" />
+            </svg>
+        </div>
+        <div class="partCard">
+            <div class="partCardImage">
+                <img src="./assets/img/35 1.png" alt="">
+            </div>
+            <h1>
+                Переговоры
+            </h1>
+        </div>
+        <div class="partSwiperLine">
+            <div></div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                <circle cx="15" cy="15" r="15" fill="#282828" />
+                <path d="M13 9C13 9 19.7613 15.5 19.9945 15.5C20.2276 15.5 13 22 13 22" stroke="#F8BF00"
+                    stroke-width="3" stroke-linecap="round" />
+            </svg>
+        </div>
+        <div class="partCard">
+            <div class="partCardImage">
+                <img src="./assets/img/35 1.png" alt="">
+            </div>
+            <h1>
+                Переговоры
+            </h1>
+        </div>
+       
+        <div class="partCard">
+            <div class="partCardImage">
+                <img src="./assets/img/35 1.png" alt="">
+            </div>
+            <h1>
+                Переговоры
+            </h1>
+        </div>
+
+    </section> -->
+    <footer class="footer">
+        <div class="footerContainer">
+            <nav>
+                <ul>
+                    <li>главная</li>
+                    <li>такси</li>
+                    <li>грузоперевозки</li>
+                    <li>доставка</li>
+                    <li>РАБОТА В АЛАГЕТ</li>
+                </ul>
+                <div class="socialMedia">
+                    <div class="iconItem">
+                        <img src="./assets/icons/иконки (1).svg" alt="" />
+                    </div>
+                    <div class="iconItem">
+                        <img src="./assets/icons/иконки ФБ.svg" alt="" />
+                    </div>
+                </div>
+                <div class="socialMedia">
+                    <div class="iconItem">
+                        <img src="./assets/icons/Vector.svg" alt="" />
+                        <p>App store</p>
+                    </div>
+                    <div class="iconItem">
+                        <img src="./assets/icons/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTE0LjM3NDUgMTEuMzIyTDcuNDc 1.svg"
+                            alt="" />
+                        <p>Google play</p>
+                    </div>
+                </div>
+            </nav>
+            <p>
+                Alaget taxi — это онлайн-агрегатор. Мы не участвуем во
+                взаимоотношениях наших пользователей — все заявки в приложении они
+                создают и исполняют самостоятельно. Помогаем водителям и пассажирам
+                договориться о справедливой цене в Кыргызстане.
+            </p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="2" viewBox="0 0 1370 2" fill="none">
+                <path d="M1370 1H0" stroke="#F5B324" />
+            </svg>
+            <div class="lust">
+                <p>© 2023 Region Group. Все права защищены.</p>
+                <p>Пользовательское соглашение</p>
+                <p>Политика конфиденциальности</p>
+                <p>Лицензионное соглашение</p>
+            </div>
+        </div>
+    </footer>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js'></script>
+    <script src="./assets/js/miniSwiper.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
