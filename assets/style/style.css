@@ -1464,6 +1464,21 @@ a {
 }
 
 @media(max-width:770px) {
+    .form h1 {
+        font-size: 20px;
+    }
+
+    .formTitle h1 {
+        font-size: 20px;
+    }
+
+    .formSection {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 1rem;
+        text-align: center;
+    }
+
     .instructionCard {
         width: 50%;
         height: fit-content;

@@ -15,14 +15,18 @@
     .swiper-wrapper {
         /* now arrows appear */
         /* make room for arrows */
-        width: 92%;
+        width: 290px;
+        display: flex;
+        align-items: center;
     }
 }
 
 @media (min-width: 43.75em) {
     .swiper-wrapper {
         /* make room for arrows */
-        width: 95%;
+        width: 290px;
+        display: flex;
+        align-items: center;
     }
 }
 
@@ -30,14 +34,18 @@
 /* doubleing up specificity to win over on transform */
 .swiper-slide.swiper-slide {
     /* a single column layout */
-    width: 100%;
+    width: 290px;
+    display: flex;
+    align-items: center;
 }
 
 
 @media (min-width: 37.5em) {
     .swiper-slide.swiper-slide {
         /* going for a 2 column layout here */
-        width: 50%;
+        width: 290px;
+        display: flex;
+        align-items: center;
 
         /* centeredSlides set to true */
         /* reposition so first slide appears on left */
@@ -48,7 +56,9 @@
 @media (min-width: 43.75em) {
     .swiper-slide.swiper-slide {
         /* upping it to a 3 column layout */
-        width: 33.33333333333%;
+        width: 290px;
+        display: flex;
+        align-items: center;
 
         /* centeredSlides set to true */
         /* reposition so first slide appears on left */
@@ -60,6 +70,8 @@
     .swiper-slide.swiper-slide {
         /* and finally the 4 column layout */
         width: 290px;
+        display: flex;
+        align-items: center;
         display: flex;
         align-items: center;
 
