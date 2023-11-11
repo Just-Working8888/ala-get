@@ -18,7 +18,9 @@
 }
 
 
-
+a {
+    color: white;
+}
 
 .deliveryFlex {
     display: flex;
