@@ -15,7 +15,7 @@
     .swiper-wrapper {
         /* now arrows appear */
         /* make room for arrows */
-        width: 290px;
+        width: 260px;
         display: flex;
         align-items: center;
     }
@@ -24,7 +24,7 @@
 @media (min-width: 43.75em) {
     .swiper-wrapper {
         /* make room for arrows */
-        width: 290px;
+        width: 260px;
         display: flex;
         align-items: center;
     }
@@ -34,7 +34,7 @@
 /* doubleing up specificity to win over on transform */
 .swiper-slide.swiper-slide {
     /* a single column layout */
-    width: 290px;
+    width: 260px;
     display: flex;
     align-items: center;
 }
@@ -43,33 +43,33 @@
 @media (min-width: 37.5em) {
     .swiper-slide.swiper-slide {
         /* going for a 2 column layout here */
-        width: 290px;
+        width: 260px;
         display: flex;
         align-items: center;
 
         /* centeredSlides set to true */
         /* reposition so first slide appears on left */
-        transform: translateX(-50%);
+    
     }
 }
 
 @media (min-width: 43.75em) {
     .swiper-slide.swiper-slide {
         /* upping it to a 3 column layout */
-        width: 290px;
+        width: 260px;
         display: flex;
         align-items: center;
 
         /* centeredSlides set to true */
         /* reposition so first slide appears on left */
-        transform: translateX(-100%);
+      
     }
 }
 
 @media (min-width: 53em) {
     .swiper-slide.swiper-slide {
         /* and finally the 4 column layout */
-        width: 290px;
+        width: 260px;
         display: flex;
         align-items: center;
         display: flex;
@@ -77,7 +77,7 @@
 
         /* centeredSlides set to true */
         /* reposition so first slide appears on left */
-        transform: translateX(-150%);
+  
     }
 }
 

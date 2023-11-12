@@ -7,9 +7,9 @@
         loop: true,
 
         slidesPerView: 'auto',
-        centeredSlides: true,
+        centeredSlides: false,
 
-        a11y: true,
+        a11y: false,
         keyboardControl: true,
         grabCursor: true,
 

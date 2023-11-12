@@ -921,6 +921,7 @@ a {
 }
 
 .instructionCard p {
+    height: 96px;
     color: #282828;
     font-size: 17px;
     font-style: normal;
@@ -1212,7 +1213,7 @@ a {
 .partSwiperLine svg {
     position: absolute;
     top: -12px;
-    left: 30%;
+    left: 15%;
     ;
 }
 
