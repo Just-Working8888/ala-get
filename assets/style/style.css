@@ -930,7 +930,44 @@ a {
     /* 21.28px */
 }
 
+.contactContainer {
+    padding: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
+.contactTitle h1 {
+    color: #282828;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 85%;
+    /* 27.2px */
+    text-transform: uppercase;
+}
+
+.contactTitle {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+
+.contactTitle div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contactTitle div p {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 24px */
+}
 
 @keyframes fadeAppear {
     0% {
