@@ -1400,7 +1400,7 @@ a {
         right: 0;
     }
 
-    .mainTitle h1,
+    .mainTitle,
     h3 {
         color: #D9D9D9;
     }
@@ -1547,12 +1547,14 @@ a {
 }
 
 @media(max-width:770px) {
-    .mainTitle h1{
+    .mainTitle h1 {
         font-size: 34px;
     }
-    .mainTitle h2{
+
+    .mainTitle h2 {
         font-size: 54px;
     }
+
     .form h1 {
         font-size: 20px;
     }
@@ -1629,7 +1631,7 @@ a {
     }
 
     .stepLine {
-       
+
         min-height: 60px;
         width: 0px;
         margin: 9px 14px;
