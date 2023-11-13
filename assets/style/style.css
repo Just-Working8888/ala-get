@@ -1370,6 +1370,10 @@ a {
     /* 22.8px */
 }
 
+.aboutSection .aboutAppCard {
+    height: fit-content !important;
+}
+
 @media(max-width:1245px) {
 
     .main .Mainbackround {
