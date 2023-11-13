@@ -90,6 +90,7 @@
             <a href="./contact.html">
                 <li>контакты</li>
             </a>
+
             <a href="./partners.html">
                 <li class="active">Партнерство</li>
             </a>
@@ -103,7 +104,10 @@
             <h2 class="yellow">Стань парнёром</h2>
             <h2 class="white">и зарабатывай с платформой Alaget прямо сейчас!</h2>
 
-            <div class="mainButton borderYellow">стать партнером Alaget</div>
+            <a href="">
+                <div class="mainButton borderYellow">стать партнером Alaget</div>
+            </a>
+            
         </div>
         <div class="mainCarImage">
 
@@ -387,7 +391,7 @@
             <input placeholder="Ваше ФИО " type="text">
             <input placeholder="Название компании" type="text">
             <input placeholder="номер телефона/e-mail" type="text">
-            <div class="formButton">Оставить заявку</div>
+            <button type="submit" class="formButton">Оставить заявку</button>
         </form>
 
     </section>
@@ -528,7 +532,16 @@
     </footer>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js'></script>
     <script src="./assets/js/miniSwiper.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <script>
+        const sideBar = document.getElementById('mobileMenu')
+        function closeSideBar() {
+            sideBar.className = 'mobileMenuDisabled'
+        }
+        function openSideBar() {
+            sideBar.className = 'mobileMenuActive'
+        }
+    </script>
+
 </body>
 
 </html>
