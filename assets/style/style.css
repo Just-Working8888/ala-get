@@ -1770,10 +1770,23 @@ a {
 }
 
 @media(max-width:360px) {
+    .aboutTitle h1{
+        font-size: 22px;
+        text-align: center;
+    }
+    .aboutTitle h2{
+        font-size: 14px;
+        text-align: center;
+    }
     .contactTitle h1 {
         font-size: 15px;
+        text-align: center;
     }
 
+    .aboutTitle p{
+        font-size: 15px;
+        text-align: center;
+    }
     .mainCarImage img {
         bottom: 40%;
     }
