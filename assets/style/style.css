@@ -251,6 +251,7 @@ a {
 }
 
 .service {
+    text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -264,7 +265,7 @@ a {
     display: flex;
     align-items: center;
     gap: 23px;
-    height: 55px;
+
 
 }
 
@@ -288,7 +289,7 @@ a {
 
 .aboutAppCard {
     border-radius: 45px;
-    background: #FFF;
+    /* background: #FFF; */
     padding: 45px 60px;
     display: flex;
     justify-content: space-between;
@@ -594,6 +595,7 @@ a {
 .footer .footerContainer nav {
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
     align-items: center;
     justify-content: space-between;
 }
@@ -932,6 +934,7 @@ a {
 
 .contactContainer {
     padding: 20vh;
+    gap: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -1062,6 +1065,7 @@ a {
 
 .mobileMenuActive a {
     color: white;
+    text-transform: capitalize;
 }
 
 .mobileMenuActive ul {
@@ -1406,6 +1410,16 @@ a {
 }
 
 @media(max-width:830px) {
+    .aboutAppCard {
+        transition: 0.3s;
+        height: 710px;
+        flex-direction: column;
+    }
+
+    .aboutAppCard .aboutCardLeft h2 {
+        margin: 1rem;
+    }
+
     .partGroupBop {
         flex-direction: column;
         align-items: center;
@@ -1426,6 +1440,7 @@ a {
 
     .miniCard {
         flex-wrap: wrap;
+        gap: 1rem;
     }
 
     .main .Mainbackround {
@@ -1563,6 +1578,41 @@ a {
 }
 
 @media(max-width:571px) {
+    .aboutAppCard {
+        transition: 0.3s;
+        height: 576px;
+        flex-direction: column;
+    }
+
+    .Proof .ProofContiner h1 {
+        font-size: 27px;
+        text-align: center;
+    }
+
+    .proofItemMain p {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .stepLine {
+        border: 2.5px solid white;
+        min-height: 60px;
+        width: 0px;
+        margin: 9px 14px;
+    }
+
+    .aboutAppCard .aboutCardLeft .slideNum h1 {
+        font-size: 21px;
+    }
+
+    .slideNumTitle {
+        font-size: 22px;
+    }
+
+    .aboutAppCard .aboutCardLeft h1 {
+        font-size: 25px;
+    }
+
     .partBotImage {
         width: 100%;
     }
@@ -1636,7 +1686,7 @@ a {
     }
 
     .Proof .ProofContiner .proofList .proofListItem .proofItemTop h1 {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     .main .mainTitle h1 {
@@ -1655,9 +1705,17 @@ a {
     .cardFlex {
         flex-direction: column;
     }
+
+    .contactContainer {
+        padding: 20vh 2vw;
+    }
 }
 
 @media(max-width:360px) {
+    .contactTitle h1 {
+        font-size: 15px;
+    }
+
     .mainCarImage img {
         bottom: 40%;
     }
@@ -1668,7 +1726,38 @@ a {
     }
 
     .taxi h1 {
-        font-size: 38px !important;
+        font-size: 23px !important;
+    }
+
+    .orangeBGbutton {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .instructionSection h1 {
+        color: #282828;
+        font-size: 20px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 106.4%;
+    }
+
+    .stepItem div {
+        border-radius: 7px;
+        background: #F8BF00;
+        color: white;
+        width: 33px;
+        height: 33px;
+        padding: 10px;
+    }
+
+    .instructionCard p {
+        font-size: 13px;
+    }
+
+    .instructionSection h1 {
+        font-size: 12px;
     }
 }
 

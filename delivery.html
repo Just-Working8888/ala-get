@@ -34,7 +34,9 @@
         <a href="./contact.html">
           <li>контакты</li>
         </a>
-
+        <a href="./partners.html">
+          <li>Партнерство</li>
+        </a>
       </ul>
       <div>
         <div class="burgerMenu" onclick="openSideBar()">
@@ -84,6 +86,9 @@
       <a href="./contact.html">
         <li>контакты</li>
       </a>
+      <a href="./partners.html">
+        <li class="active">Партнерство</li>
+    </a>
     </ul>
   </div>
   <!-- header end -->
@@ -159,77 +164,56 @@
   <br><br>
   <!-- swiper start -->
   <section>
-    <div class="swiper-container">
+    <div style="
+    background: white;
+    border-radius: 50px;
+  " class="swiper-container">
       <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-        <!-- Slides -->
 
-        <div class="swiper-slide">
-          <div style="flex-direction: column;gap: 2rem;" class="aboutAppCard">
-            <h1 class="yellow">Такси по городу и между городами</h1>
-            <div class="cardFlex">
+
+      <div style="flex-direction: column;gap: 2rem;align-items: start; height: fit-content;" class="aboutAppCard">
+        <h1 class="yellow">Такси по городу и между городами</h1>
+        <div class="flex">
+          <div class="aboutCardRight">
+            <div class="miniCard">
               <div class="aboutCardRight">
-                <div class="miniCard">
-                  <div class="aboutCardRight">
-                    <h1>Такси внутри города</h1>
-                    <br>
-                    <p>С помощью приложения вы сможете
-                      путешествовать по стоимости, которую
-                      вы сами устанавливаете, а водитель
-                      заедет за вами по указанному адресу!</p>
-                  </div>
-                  <div class="aboutCardRight">
-                    <div class="aboutCardImage">
-                      <img
-                        src="./assets/img/young-happy-manual-worker-carrying-cardboard-boxes-in-delivery-van-while-communicating-with-his-colleagues 1.png"
-                        alt="" />
-                    </div>
-                  </div>
-                </div>
+                <h1>Такси внутри города</h1>
+                <br>
+                <p>С помощью приложения вы сможете
+                  путешествовать по стоимости, которую
+                  вы сами устанавливаете, а водитель
+                  заедет за вами по указанному адресу!</p>
               </div>
               <div class="aboutCardRight">
-                <div class="miniCard">
-                  <div class="aboutCardRight">
-                    <h1>Такси внутри города</h1>
-                    <br>
-                    <p>С помощью приложения вы сможете
-                      путешествовать по стоимости, которую
-                      вы сами устанавливаете, а водитель
-                      заедет за вами по указанному адресу!</p>
-                  </div>
-                  <div class="aboutCardRight">
-                    <div class="aboutCardImage">
-                      <img
-                        src="./assets/img/young-happy-manual-worker-carrying-cardboard-boxes-in-delivery-van-while-communicating-with-his-colleagues 1.png"
-                        alt="" />
-                    </div>
-                  </div>
+                <div class="aboutCardImage">
+                  <img
+                    src="./assets/img/young-happy-manual-worker-carrying-cardboard-boxes-in-delivery-van-while-communicating-with-his-colleagues 1.png"
+                    alt="" />
                 </div>
               </div>
             </div>
-
+          </div>
+          <div class="aboutCardRight">
+            <div class="miniCard">
+              <div class="aboutCardRight">
+                <h1>Такси внутри города</h1>
+                <br>
+                <p>С помощью приложения вы сможете
+                  путешествовать по стоимости, которую
+                  вы сами устанавливаете, а водитель
+                  заедет за вами по указанному адресу!</p>
+              </div>
+              <div class="aboutCardRight">
+                <div class="aboutCardImage">
+                  <img
+                    src="./assets/img/young-happy-manual-worker-carrying-cardboard-boxes-in-delivery-van-while-communicating-with-his-colleagues 1.png"
+                    alt="" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-
-
-      </div>
-
-      <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-          <rect x="24" y="24" width="24" height="24" rx="5" transform="rotate(180 24 24)" fill="#F8AE21" />
-          <path
-            d="M18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11V13ZM4.79289 11.2929C4.40237 11.6834 4.40237 12.3166 4.79289 12.7071L11.1569 19.0711C11.5474 19.4616 12.1805 19.4616 12.5711 19.0711C12.9616 18.6805 12.9616 18.0474 12.5711 17.6569L6.91421 12L12.5711 6.34315C12.9616 5.95262 12.9616 5.31946 12.5711 4.92893C12.1805 4.53841 11.5474 4.53841 11.1569 4.92893L4.79289 11.2929ZM18 11H5.5V13H18V11Z"
-            fill="white" />
-        </svg>
-      </div>
-      <div class="swiper-button-next">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-          <rect width="24" height="24" rx="5" fill="#F8AE21" />
-          <path
-            d="M6 11C5.44772 11 5 11.4477 5 12C5 12.5523 5.44772 13 6 13V11ZM19.2071 12.7071C19.5976 12.3166 19.5976 11.6834 19.2071 11.2929L12.8431 4.92893C12.4526 4.53841 11.8195 4.53841 11.4289 4.92893C11.0384 5.31946 11.0384 5.95262 11.4289 6.34315L17.0858 12L11.4289 17.6569C11.0384 18.0474 11.0384 18.6805 11.4289 19.0711C11.8195 19.4616 12.4526 19.4616 12.8431 19.0711L19.2071 12.7071ZM6 13H18.5V11H6V13Z"
-            fill="white" />
-        </svg>
+        <div class="orangeBGbutton">УСТАНОВИТЬ ПРИЛОЖЕНИЕ</div>
       </div>
 
       <!-- If we need scrollbar -->
@@ -356,11 +340,25 @@
     <div class="footerContainer">
       <nav>
         <ul>
-          <li>главная</li>
-          <li>такси</li>
-          <li>грузоперевозки</li>
-          <li>доставка</li>
-          <li>РАБОТА В АЛАГЕТ</li>
+          <a href="./index.html">
+            <li>главная</li>
+          </a>
+          <a href="./taxi.html">
+            <li>такси</li>
+          </a>
+          <a href="./cargo.html">
+            <li>грузоперевозки</li>
+          </a>
+          <a href="./delivery.html">
+            <li>доставка</li>
+          </a>
+          <a href="./beTaxist.html">
+            <li>РАБОТА В АЛАГЕТ</li>
+          </a>
+          <a href="./partners.html">
+            <li>Партнерство</li>
+          </a>
+
         </ul>
         <div class="socialMedia">
           <div class="iconItem">
