@@ -1788,6 +1788,18 @@ a {
     .contactContainer {
         padding: 20vh 2vw;
     }
+    .partSwiperLine{
+        display: none;
+    }
+    .partCard{
+        width: 100%;
+    }
+    .swiper-slide{
+        width: 100% !important;
+    }
+    .produckSvg{
+        display: none;
+    }
 }
 
 @media(max-width:360px) {
