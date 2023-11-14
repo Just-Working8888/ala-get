@@ -73,28 +73,28 @@
         <ul class="desc">
             <a href="./index.html">
                 <li>Главная</li>
-              </a>
-              <a href="./about.html">
+            </a>
+            <a href="./about.html">
                 <li class="active">О нас</li>
-              </a>
-        
-              <a href="./taxi.html">
+            </a>
+
+            <a href="./taxi.html">
                 <li>Такси</li>
-              </a>
-              <a href="./cargo.html">
+            </a>
+            <a href="./cargo.html">
                 <li>Грузоперевозки</li>
-              </a>
-              <a href="./delivery.html">
+            </a>
+            <a href="./delivery.html">
                 <li>Доставка</li>
-              </a>
-        
-        
-        
-              <a href="./partners.html">
+            </a>
+
+
+
+            <a href="./partners.html">
                 <li class="active">Партнерство</li>
-              </a> <a href="./contact.html">
+            </a> <a href="./contact.html">
                 <li>Контакты</li>
-              </a>
+            </a>
         </ul>
     </div>
     <main id="main" class="main">
@@ -108,7 +108,7 @@
             <a href="">
                 <div class="mainButton borderYellow">стать партнером Alaget</div>
             </a>
-            
+
         </div>
         <div class="mainCarImage">
 
@@ -127,34 +127,65 @@
             <img src="./assets/img/Group 207.png" alt="">
         </div>
     </section>
-    <section class="partGroup">
-        <div class="partGroupContainer">
-            <div class="partGroupTop">
-                <h1>Локальный таксопарк (в Кыргызстане)</h1>
-                <h1>Глобальный интегратор (в любой точке мира)</h1>
-            </div>
-            <br>
-            <div class="partGroupBop">
-                <div class="partBotImage">
-                    <img src="./assets/img/Стойка в кривых 4 (1).svg" alt="">
+    <div class="flex">
+        <section id="left" style="display: none;" class="partGroup">
+            <div class="partGroupContainer">
+                <div class="partGroupTop">
+                    <h1 style="text-decoration: underline #F8BF00;">Локальный таксопарк (в Кыргызстане)</h1>
+                    <h1 onclick="OnLeftClick()" >Глобальный интегратор (в любой точке мира)</h1>
                 </div>
-                <div class="partTitle">
-                    <p>Если Ваша компания предоставляет услуги такси или грузоперевозок в городах и селах Кыргызстана, и
-                        вы
-                        хотите всегда получать стабильные заказы, вы можете стать локальным таксопарком, работающим на
-                        приложении Alaget.
+                <br>
+                <div class="partGroupBop">
+                    <div class="partBotImage">
+                        <img src="./assets/img/Стойка в кривых 4 (1).svg" alt="">
+                    </div>
+                    <div class="partTitle">
+                        <p>Если Ваша компания предоставляет услуги такси или грузоперевозок в городах и селах
+                            Кыргызстана, и
+                            вы
+                            хотите всегда получать стабильные заказы, вы можете стать локальным таксопарком, работающим
+                            на
+                            приложении Alaget.
 
-                    </p>
-                    <br>
-                    <h5>
-                        Мы обеспечим вашу компанию постоянным потоком заказов,
-                        а вы будете зарабатывать комиссию с каждого заказа!</h5>
+                        </p>
+                        <br>
+                        <h5>
+                            Мы обеспечим вашу компанию постоянным потоком заказов,
+                            а вы будете зарабатывать комиссию с каждого заказа!</h5>
+                    </div>
                 </div>
             </div>
-        </div>
 
 
-    </section>
+        </section>
+        <section id="right" class="partGroup">
+            <div class="partGroupContainer">
+                <div class="partGroupTop">
+                    <h1 onclick="OnRightClick()">Локальный таксопарк (в Кыргызстане)</h1>
+                    <h1  style="text-decoration: underline #F8BF00;">Глобальный интегратор (в любой точке мира)</h1>
+                </div>
+                <br>
+                <div class="partGroupBop">
+                    <div class="partBotImage">
+                        <img src="./assets/icons/Group 230.png" alt="">
+                    </div>
+                    <div class="partTitle">
+                        <p>Если вы хотите запустить инновационный цифровой бизнес в транспортной сфере у себя в стране,
+                            то платформа Alaget как нельзя лучше подойдет вам!
+
+                        </p>
+                        <br>
+                        <h5>
+                            Становитесь бизнес-партнером Alaget в своей стране и зарабатывайте на комиссии с каждой
+                            поездки!</h5>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </div>
+
 
 
     <section class="partners">
@@ -508,8 +539,7 @@
                         <p>App store</p>
                     </div>
                     <div class="iconItem">
-                        <img src="./assets/icons/playMarket.svg"
-                            alt="" />
+                        <img src="./assets/icons/playMarket.svg" alt="" />
                         <p>Google play</p>
                     </div>
                 </div>
@@ -534,6 +564,9 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js'></script>
     <script src="./assets/js/miniSwiper.js"></script>
     <script>
+
+        const right = document.getElementById("right")
+        const left = document.getElementById("left")
         const sideBar = document.getElementById('mobileMenu')
         function closeSideBar() {
             sideBar.className = 'mobileMenuDisabled'
@@ -541,6 +574,17 @@
         function openSideBar() {
             sideBar.className = 'mobileMenuActive'
         }
+
+        function OnRightClick() {
+            left.style.display = 'block'
+            right.style.display = 'none'
+        }
+        function OnLeftClick() {
+            left.style.display = 'none'
+            right.style.display = 'block'
+        }
+
+
     </script>
 
 </body>
