@@ -303,6 +303,7 @@ a {
 .aboutAppCard .aboutCardLeft {
     display: flex;
     flex-direction: column;
+    gap: 1rem !important;
     justify-content: space-between;
 
 }
@@ -769,6 +770,8 @@ a {
 .cargoCard div {
     height: 190px;
     width: 190px;
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
 }
 
