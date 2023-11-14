@@ -49,7 +49,7 @@
 
         /* centeredSlides set to true */
         /* reposition so first slide appears on left */
-    
+
     }
 }
 
@@ -62,7 +62,7 @@
 
         /* centeredSlides set to true */
         /* reposition so first slide appears on left */
-      
+
     }
 }
 
@@ -77,7 +77,7 @@
 
         /* centeredSlides set to true */
         /* reposition so first slide appears on left */
-  
+
     }
 }
 
@@ -145,15 +145,12 @@
  ========================================================================== */
 
 .product {
-    /* odds are you will use flexbox */
-    // display: flex;
+    width: 100%;
 
-    /* center it */
     margin-left: auto;
     margin-right: auto;
 
-    /* adjust the width to add or remove whitespace  */
-    width: 82%;
+
 }
 
 .photograph {
