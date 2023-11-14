@@ -1363,6 +1363,7 @@ a {
 
 .formButton {
     border: none;
+    cursor: pointer;
     border-radius: 15px;
     background: #F8BF00;
     padding: 18px;
