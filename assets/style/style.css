@@ -1800,6 +1800,9 @@ a {
     .produckSvg{
         display: none;
     }
+    .instructionSection h1{
+        font-size: 30px;
+    }
 }
 
 @media(max-width:360px) {
