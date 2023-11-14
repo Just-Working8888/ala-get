@@ -1803,6 +1803,9 @@ a {
 }
 
 @media(max-width:360px) {
+    .instructionSection h1{
+        font-size: 20px;
+    }
     .aboutTitle h1{
         font-size: 22px;
         text-align: center;
