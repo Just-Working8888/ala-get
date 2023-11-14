@@ -433,6 +433,7 @@ a {
 }
 
 .orangeBGbutton {
+    cursor: pointer;
     width: fit-content;
     border-radius: 15px;
     background: #F5B324;
@@ -1648,8 +1649,11 @@ a {
         text-align: center;
         }
         .aboutTitle h2 {
-            font-size: 20px;
+            font-size: 15px;
             text-align: center;
+            }
+            .aboutTitle p{
+                font-size: 15px;
             }
     .aboutAppCard {
         transition: 0.3s;
