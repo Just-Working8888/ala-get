@@ -1636,6 +1636,18 @@ a {
 }
 
 @media(max-width:571px) {
+    .aboutTitle p {
+    font-size: 20px;
+    text-align: center;
+    }
+    .aboutTitle h1 {
+        font-size: 20px;
+        text-align: center;
+        }
+        .aboutTitle h2 {
+            font-size: 20px;
+            text-align: center;
+            }
     .aboutAppCard {
         transition: 0.3s;
         height: 576px;
