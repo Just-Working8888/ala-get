@@ -657,7 +657,13 @@ a {
     gap: 1rem;
 }
 
+.partGroupTop h1 {
+    transition: 0.2s;
+}
 
+.partGroupTop h1:hover {
+    color: #F5B324;
+}
 
 .miniCard {
     height: 100%;
@@ -1458,6 +1464,7 @@ a {
         flex-direction: column;
         margin: 0;
     }
+
     .beTax .mainCarImage img {
         position: relative;
     }
@@ -1645,20 +1652,24 @@ a {
 
 @media(max-width:571px) {
     .aboutTitle p {
-    font-size: 20px;
-    text-align: center;
+        font-size: 20px;
+        text-align: center;
     }
+
     .aboutTitle h1 {
         font-size: 20px;
         text-align: center;
-        }
-        .aboutTitle h2 {
-            font-size: 15px;
-            text-align: center;
-            }
-            .aboutTitle p{
-                font-size: 15px;
-            }
+    }
+
+    .aboutTitle h2 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .aboutTitle p {
+        font-size: 15px;
+    }
+
     .aboutAppCard {
         transition: 0.3s;
         height: 576px;
@@ -1791,44 +1802,53 @@ a {
     .contactContainer {
         padding: 20vh 2vw;
     }
-    .partSwiperLine{
+
+    .partSwiperLine {
         display: none;
     }
-    .partCard{
+
+    .partCard {
         width: 100%;
     }
-    .swiper-slide{
+
+    .swiper-slide {
         width: 100% !important;
     }
-    .produckSvg{
+
+    .produckSvg {
         display: none;
     }
-    .instructionSection h1{
+
+    .instructionSection h1 {
         font-size: 30px;
     }
 }
 
 @media(max-width:360px) {
-    .instructionSection h1{
+    .instructionSection h1 {
         font-size: 20px;
     }
-    .aboutTitle h1{
+
+    .aboutTitle h1 {
         font-size: 22px;
         text-align: center;
     }
-    .aboutTitle h2{
+
+    .aboutTitle h2 {
         font-size: 14px;
         text-align: center;
     }
+
     .contactTitle h1 {
         font-size: 15px;
         text-align: center;
     }
 
-    .aboutTitle p{
+    .aboutTitle p {
         font-size: 15px;
         text-align: center;
     }
+
     .mainCarImage img {
         bottom: 40%;
     }
